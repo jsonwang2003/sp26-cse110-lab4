@@ -34,4 +34,3 @@
 15. `==` does automatic type casting before actually evaluating the comarison; `===` on the other hand does not do type casting, it checks for the type of the 2 operands first and returns false if the types don't match.
 17. First the `newArr` is created and for each element in the array, run the callback function and append it to the `newArr`. The callback function just returns the double of the value inputed. With the array being [1, 2, 3], new array will be [2, 4, 6].
 19. 1 4 3 2
-20. 
