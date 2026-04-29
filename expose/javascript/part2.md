@@ -4,7 +4,7 @@
 4. The function returns a list of discounted prices in the order given to the function. Since for each price was calculated and applied the discount and push into `discounted` in order, the returned price also will be in the order that was given. There are no errors as the `discounted` variable is declared by `var` and therefore accessible by `return` statement.
 5. At line 12, there will be an error since the variable `i` is only accessible by the for-loop. line 12 cannot access/find the variable `i` at the scope it is at.
 6. At line 13, there will also be an error since the `discountedPrice` is also only accessible inside the for-loop. Line 13 cannot access `discountedPrice` and throws a reference error.
-7. At line 14, there will be no error since `finalPrice` is within the same scope as line 14. 
+7. line 14 will print 150 since that is the final price of the last item in the list discounted.
 8. The function will return a list of discounted prices in the order given to the function, just like the version with `var` variables
 9. At line 12, there will be an error since the variable `i` is only accessible by the for-loop. line 12 cannot access/find the variable `i` at the scope it is at.
 10. At line 13 will print 3 as that is the number of prices being processed by the function. There is no error as the `console.log` is just reading the value in `length`, not changing the value.
